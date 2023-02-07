@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 400px;
+  background-color: #1e293b;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+}
+.l {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+.r {
+  color: #ffffff;
+  font-size: 15px;
+
+  font-family: 'Bree Serif';
+}
+.green-color {
+  font-size: 20px;
+  color: #18ed66;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+.red-color {
+  font-size: 20px;
+  color: #e31a1a;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
