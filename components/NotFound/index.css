@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.not-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .not-cont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    height: 100vh;
+  }
+}
+.not {
+  font-size: 40px;
+  font-weight: 'Bree Serif';
+  font-weight: bold;
+  color: #ffffff;
+}
